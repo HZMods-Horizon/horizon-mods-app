@@ -32,3 +32,5 @@ The bot polls `GET /api/v1/feed` every `POLL_SECONDS` (at least 15). It also lis
 A webhook message can carry about 10 MB. Pictures on the site are capped at 4 MB and the clip at 8 MB. If a post would pass the webhook budget, the message keeps what fits and the mod page still has the rest.
 
 Do not run slash commands in the closed channel. A command there is treated as a message in that channel.
+
+In the Discord application, set the terms URL to `/app/terms` and the privacy URL to `/app/privacy` on the site. On the public host those are `https://hzmods.lol/app/terms` and `https://hzmods.lol/app/privacy`.
